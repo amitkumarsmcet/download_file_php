@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <title>Force Download file</title>
+  
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body ng-controller="HomeCtrl">
+<div class="container theme-showcase">
+  <div class="panel panel-primary">
+    <div class="panel-heading"><h3 class="panel-title">Force Download Files</h3></div>
+    <div class="panel-body">
+      <div class="form-group">
+        <div class="alert alert-info" role="alert">
+          <strong>;extension=php_fileinfo.dll : </strong> You need to enable this extension on your PHP.ini file.
+        </div>
+        <ul class="nav nav-pills nav-stacked" role="tablist" style="max-width: 300px;">
+          <li role="presentation"><a href="./download.php?file=image.PNG">Download IMAGE file</a></li>
+          <li role="presentation"><a href="./download.php?file=pdf_file.pdf">Download PDF file</a></li>
+          <li role="presentation"><a href="./download.php?file=doc_file.docx">Download DOC file</a></li>
+          <li role="presentation"><a href="./download.php?file=zip_file.zip">Download ZIP file</a></li>
+        </ul>
+        <small class="">you can use this functionality as your requirement.</small>
+      </div>
+      <div></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
